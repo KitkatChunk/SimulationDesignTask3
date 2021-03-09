@@ -37,7 +37,7 @@ public class QueueManager : MonoBehaviour
     public GameObject PopFirst()
     {
         GameObject go = null;
-        if (queue.Count > 0)
+        if (queue.Count > 0 )
         {
             go = queue[0];
             queue.RemoveAt(0);

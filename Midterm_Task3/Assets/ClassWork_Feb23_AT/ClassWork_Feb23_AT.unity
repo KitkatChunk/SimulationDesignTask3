@@ -554,13 +554,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.17364816, y: 0, z: 0, w: 0.9848078}
-  m_LocalPosition: {x: 0, y: 10, z: -35}
+  m_LocalRotation: {x: 0.0040582786, y: 0.95841295, z: -0.28493065, w: 0.015580125}
+  m_LocalPosition: {x: -0.32, y: 7.81, z: 28.93}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 20, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 33.113003, y: 178.115, z: -0.075}
 --- !u!114 &963194229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -579,9 +579,9 @@ MonoBehaviour:
   arrivalRateAsCarsPerHour: 30
   interArrivalTimeInHours: 0.0333
   generateArrivals: 1
-  minInterArrivalTimeInSeconds: 3
+  minInterArrivalTimeInSeconds: 120
   maxInterArrivalTimeInSeconds: 120
-  arrivalIntervalTimeStrategy: 2
+  arrivalIntervalTimeStrategy: 1
 --- !u!1 &1046170763
 GameObject:
   m_ObjectHideFlags: 0
@@ -762,7 +762,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1157901023}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.1, z: 0}
   m_LocalScale: {x: 2, y: 1, z: 5}
   m_Children: []
   m_Father: {fileID: 0}
@@ -856,7 +856,7 @@ Transform:
   m_GameObject: {fileID: 1662360144}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -2.5}
-  m_LocalScale: {x: 12.62, y: 1, z: 38}
+  m_LocalScale: {x: 12.62, y: 1, z: 32.99008}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
@@ -889,8 +889,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1741770765}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.489, z: 23.994}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.09, y: -0.02, z: 21.17}
+  m_LocalScale: {x: 4.9, y: 0.32540384, z: 1.3476868}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
@@ -927,7 +927,7 @@ MonoBehaviour:
   generateServices: 1
   minInterServiceTimeInSeconds: 60
   maxInterServiceTimeInSeconds: 60
-  serviceIntervalTimeStrategy: 2
+  serviceIntervalTimeStrategy: 1
 --- !u!114 &1741770769
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -951,7 +951,7 @@ Halo:
   m_Color:
     serializedVersion: 2
     rgba: 4286611584
-  m_Size: 5
+  m_Size: 6
 --- !u!1 &1765884325
 GameObject:
   m_ObjectHideFlags: 0
@@ -1039,8 +1039,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1765884325}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 1.5, z: 20.9}
-  m_LocalScale: {x: 12.563663, y: 3, z: 3}
+  m_LocalPosition: {x: 0, y: 1.5, z: 16.06}
+  m_LocalScale: {x: 12.563663, y: 3, z: 3.8694}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
